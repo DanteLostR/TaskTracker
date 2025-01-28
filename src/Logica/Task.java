@@ -17,6 +17,7 @@ public class Task {
 		this.description = name;
 		this.id = getNewID();
 		this.createdAt = LocalDateTime.now();
+        this.updatedAt = LocalDateTime.now();
 		this.status = "todo";
 	}	
 
